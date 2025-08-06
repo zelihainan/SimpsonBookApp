@@ -22,5 +22,4 @@ A simple iOS app that lists Simpsons characters and shows details on a separate 
   <img src="https://github.com/user-attachments/assets/37af741b-7393-4dbe-a152-adec4cc8b8fd" width="200" />
   <img src="https://github.com/user-attachments/assets/ce5378ef-2274-4c1d-b10a-13166d3806b9" width="200" />
   <img src="https://github.com/user-attachments/assets/63b6dec7-e586-4172-af3c-6c27217e8d67" width="200" />
-  <img src="https://github.com/user-attachments/assets/e4698f28-bd91-498f-963c-545f02548ae1" width="200" />
 </p>
