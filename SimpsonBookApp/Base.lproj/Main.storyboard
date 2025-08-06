@@ -32,6 +32,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="SzJ-6j-v6o"/>
                     <connections>
+                        <outlet property="tableView" destination="xK6-je-KNy" id="yvX-fy-n2f"/>
                         <segue destination="IY3-1T-wYO" kind="show" identifier="toDetailsVC" id="Ktd-BG-ue0"/>
                     </connections>
                 </viewController>
@@ -39,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1046.5648854961833" y="-34.507042253521128"/>
         </scene>
-        <!--View Controller-->
+        <!--DetailsVC-->
         <scene sceneID="aaQ-Ee-2gy">
             <objects>
-                <viewController id="IY3-1T-wYO" sceneMemberID="viewController">
+                <viewController id="IY3-1T-wYO" customClass="DetailsVC" customModule="SimpsonBookApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zPt-t7-ThP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +65,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="job" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUa-ay-MbT">
-                                <rect key="frame" x="74" y="529" width="245" height="76"/>
+                                <rect key="frame" x="74" y="514" width="245" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -78,13 +79,17 @@
                             <constraint firstItem="7t7-4b-NSF" firstAttribute="centerX" secondItem="zPt-t7-ThP" secondAttribute="centerX" id="Kns-NW-Zgl"/>
                             <constraint firstItem="UDc-W2-hL9" firstAttribute="leading" secondItem="hyj-l5-ZOm" secondAttribute="leading" constant="74" id="OCy-C0-GJS"/>
                             <constraint firstItem="UDc-W2-hL9" firstAttribute="leading" secondItem="gUa-ay-MbT" secondAttribute="leading" id="Yj2-de-GRH"/>
-                            <constraint firstItem="hyj-l5-ZOm" firstAttribute="bottom" secondItem="gUa-ay-MbT" secondAttribute="bottom" constant="179" id="d6S-y7-UWo"/>
-                            <constraint firstItem="gUa-ay-MbT" firstAttribute="top" secondItem="UDc-W2-hL9" secondAttribute="bottom" constant="20" id="qcz-8k-gGk"/>
+                            <constraint firstItem="gUa-ay-MbT" firstAttribute="top" secondItem="UDc-W2-hL9" secondAttribute="bottom" constant="5" id="nf1-0y-DUG"/>
                             <constraint firstItem="UDc-W2-hL9" firstAttribute="top" secondItem="7t7-4b-NSF" secondAttribute="bottom" constant="27" id="y2f-7g-I34"/>
                             <constraint firstItem="7t7-4b-NSF" firstAttribute="top" secondItem="hyj-l5-ZOm" secondAttribute="top" constant="50" id="zmZ-sk-z5d"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nhp-XW-xEL"/>
+                    <connections>
+                        <outlet property="imageView" destination="7t7-4b-NSF" id="fcf-Cz-DdY"/>
+                        <outlet property="jobLabel" destination="gUa-ay-MbT" id="h09-cq-afI"/>
+                        <outlet property="nameLabel" destination="UDc-W2-hL9" id="OjS-Dt-4ke"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9E-5c-zhU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

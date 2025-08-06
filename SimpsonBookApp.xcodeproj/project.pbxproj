@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0AF2174E2E43BACE00C6C253 /* Exceptions for "SimpsonBookApp" folder in "SimpsonBookApp" target */ = {
+		0AF217762E43BCE900C6C253 /* Exceptions for "SimpsonBookApp" folder in "SimpsonBookApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0AF2173E2E43BACD00C6C253 /* SimpsonBookApp */ = {
+		0AF2176F2E43BCE900C6C253 /* SimpsonBookApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0AF2174E2E43BACE00C6C253 /* Exceptions for "SimpsonBookApp" folder in "SimpsonBookApp" target */,
+				0AF217762E43BCE900C6C253 /* Exceptions for "SimpsonBookApp" folder in "SimpsonBookApp" target */,
 			);
 			path = SimpsonBookApp;
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		0AF217332E43BACD00C6C253 = {
 			isa = PBXGroup;
 			children = (
-				0AF2173E2E43BACD00C6C253 /* SimpsonBookApp */,
+				0AF2176F2E43BCE900C6C253 /* SimpsonBookApp */,
 				0AF2173D2E43BACD00C6C253 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0AF2173E2E43BACD00C6C253 /* SimpsonBookApp */,
+				0AF2176F2E43BCE900C6C253 /* SimpsonBookApp */,
 			);
 			name = SimpsonBookApp;
 			packageProductDependencies = (
