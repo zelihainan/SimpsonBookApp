@@ -8,6 +8,13 @@ A simple iOS app that lists Simpsons characters and shows details on a separate 
 3. On row tap, app navigates to details screen.  
 4. DetailsVC displays name, job, and image.  
 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zelihainan/SimpsonBookApp.git
+2. Open SimpsonBookApp.xcodeproj in Xcode.
+3. Build and run on a simulator or device.
+
 ## Screenshots
 <p align="center">
   <img src="https://github.com/user-attachments/assets/37af741b-7393-4dbe-a152-adec4cc8b8fd" width="200" />
