@@ -2,15 +2,6 @@
 
 A simple iOS app that lists Simpsons characters and shows details on a separate screen.  
 
-## Features
-- **Model (Simpson.swift):** Stores name, job, and image.  
-- **Main List (ViewController.swift):** UITableView displaying all characters.  
-- **Details (DetailsVC.swift):** Shows selected character’s info and image.  
-
-## Technologies
-- Swift, UIKit, Storyboard  
-- UITableView, UIImageView, UILabel  
-
 ## How it works
 1. `Simpson` objects are created and stored in an array.  
 2. Table view lists names.  
